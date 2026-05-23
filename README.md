@@ -1,20 +1,134 @@
-# React + TypeScript + Vite
+CancerTrace AI README
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# CancerTrace AI
 
-Currently, two official plugins are available:
+AI-Powered Oncology Screening Platform with Stellar Blockchain Integration
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Overview
 
-## React Compiler
+CancerTrace AI is a healthcare-focused prototype application that combines artificial intelligence and blockchain technology for early cancer risk screening and secure medical record management.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The platform simulates AI-assisted oncology analysis using biomarker-inspired screening data and stores medical screening records with blockchain-integrated verification concepts powered by Stellar.
 
-## Expanding the ESLint configuration
+This project was developed as part of an IEEE technology workshop focused on AI and blockchain innovation.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
+## Features
+
+- AI-assisted cancer risk screening simulation
+- Biomarker-based patient assessment
+- Healthcare-focused dashboard interface
+- Secure screening record management
+- Stellar blockchain-inspired medical verification workflow
+- Beginner-friendly React + TypeScript implementation
+
+---
+
+## Technology Stack
+
+### Frontend
+- React
+- TypeScript
+- Vite
+
+### Blockchain
+- Stellar blockchain integration concept
+- Decentralized medical record verification
+
+### AI Concept
+- Biomarker-based cancer risk classification
+- Predictive healthcare screening workflow
+
+---
+
+## Current Functionalities
+
+### Create Screening Record
+Allows users to simulate creating a cancer screening record for a patient.
+
+### Load Records
+Displays sample oncology screening data including:
+- Patient record ID
+- Cancer risk level
+- Biomarker score
+
+---
+
+## Example Screening Output
+
+```json
+{
+  "patient_record_id": 1,
+  "cancer_risk_level": "High",
+  "biomarker_score": 82
+}
+
+
+---
+
+Project Structure
+
+src/
+ ├── App.tsx
+ ├── main.tsx
+ └── assets/
+
+
+---
+
+Installation
+
+Clone the repository and install dependencies:
+
+npm install
+
+Run the development server:
+
+npm run dev
+
+
+---
+
+Future Development
+
+Potential future improvements include:
+
+Real AI/ML prediction models
+
+Integration with biomedical datasets
+
+Stellar wallet authentication
+
+Blockchain transaction verification
+
+Patient-owned medical records
+
+Advanced oncology analytics dashboard
+
+
+
+---
+
+Vision
+
+CancerTrace AI aims to explore how artificial intelligence and decentralized technologies can support secure, accessible, and early-stage healthcare screening systems.
+
+The project promotes the idea of trusted digital healthcare infrastructure through AI-assisted medical analysis and blockchain-secured records.
+
+
+---
+
+Disclaimer
+
+This project is a prototype created for educational and workshop purposes only. It is not intended for real medical diagnosis or clinical use.
+
+
+---
+
+Authors
+
+Developed for IEEE AI & Blockchain Workshop Innovation Project.
 ```js
 export default defineConfig([
   globalIgnores(['dist']),
